@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartBot 推广图</title>
+  <script src="https://cdn.tailwindcss.com\"></script>
+  <style>
+    * { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    body { background: #0f0f0f; }
+    .gradient-text { background: linear-gradient(135deg, #818cf8, #c084fc, #f472b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .glow { box-shadow: 0 0 60px rgba(129, 140, 248, 0.3); }
+    .chat-glow { box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-8 gap-12">
+
+  <!-- 图1: Hero Banner -->
+  <div class="w-[1200px] h-[630px] bg-gradient-to-br from-indigo-950 via-purple-950 to-slate-950 rounded-3xl p-16 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl"></div>
+    
+    <div class="relative z-10 h-full flex flex-col justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
+          <span class="text-white font-black text-3xl">S</span>
+        </div>
+        <span class="text-3xl font-bold text-white">SmartBot</span>
+        <span class="px-3 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded-full border border-indigo-500/40">AI 客服 SaaS</span>
+      </div>
+      
+      <div class="text-center">
+        <h1 class="text-6xl font-black text-white mb-6 leading-tight">
+          告别昂贵人工客服<br>
+          <span class="gradient-text">AI 帮你 24 小时接单</span>
+        </h1>
+        <p class="text-xl text-slate-400 mb-8">5 分钟配置上线 · 按消息计费 · 不用不花钱</p>
+        <div class="flex justify-center gap-4">
+          <div class="px-8 py-4 bg-indigo-600 text-white rounded-2xl font-bold text-lg shadow-lg shadow-indigo-500/30">免费开始 →</div>
+          <div class="px-8 py-4 bg-white/10 text-white rounded-2xl font-medium text-lg border border-white/20">观看演示</div>
+        </div>
+      </div>
+      
+      <div class="flex justify-between items-center text-slate-500 text-sm">
+        <span>github.com/PHclaw/smartbot</span>
+        <div class="flex gap-8">
+          <div><span class="text-2xl font-bold text-white">1,000+</span><br>企业用户</div>
+          <div><span class="text-2xl font-bold text-white">10M+</span><br>服务消息</div>
+          <div><span class="text-2xl font-bold text-white">98%</span><br>解决率</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 图2: 功能展示 -->
+  <div class="w-[1200px] h-[630px] bg-gradient-to-br from-slate-900 to-slate-950 rounded-3xl p-16">
+    <div class="mb-8">
+      <h2 class="text-4xl font-black text-white mb-3">为什么出海团队都在用 SmartBot？</h2>
+      <p class="text-slate-400 text-lg">比人工更懂客户，比竞品更便宜</p>
+    </div>
+    
+    <div class="grid grid-cols-3 gap-6">
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50 hover:border-indigo-500/50 transition">
+        <div class="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center text-2xl mb-4">🚀</div>
+        <h3 class="text-xl font-bold text-white mb-2">5 分钟上线</h3>
+        <p class="text-slate-400">拖拽配置，无需工程团队，今天注册今天用</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50 hover:border-purple-500/50 transition">
+        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center text-2xl mb-4">🧠</div>
+        <h3 class="text-xl font-bold text-white mb-2">AI 精准回复</h3>
+        <p class="text-slate-400">RAG 知识库检索，理解意图，像人工一样准确</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50 hover:border-pink-500/50 transition">
+        <div class="w-14 h-14 bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl flex items-center justify-center text-2xl mb-4">💰</div>
+        <h3 class="text-xl font-bold text-white mb-2">按需计费</h3>
+        <p class="text-slate-400">不用不花钱，超出部分按量计费，透明无套路</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50 hover:border-cyan-500/50 transition">
+        <div class="w-14 h-14 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-4">💬</div>
+        <h3 class="text-xl font-bold text-white mb-2">全渠道接入</h3>
+        <p class="text-slate-400">网站 / WhatsApp / 微信 / 小红书 一键接入</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50 hover:border-green-500/50 transition">
+        <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center text-2xl mb-4">🔄</div>
+        <h3 class="text-xl font-bold text-white mb-2">无缝转人工</h3>
+        <p class="text-slate-400">AI 无法解决时，一键转接人工客服，无缝切换</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50 hover:border-yellow-500/50 transition">
+        <div class="w-14 h-14 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center text-2xl mb-4">📊</div>
+        <h3 class="text-xl font-bold text-white mb-2">数据驱动</h3>
+        <p class="text-slate-400">对话分析、意图统计、满意度追踪，持续优化</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 图3: 定价 -->
+  <div class="w-[1200px] h-[630px] bg-gradient-to-br from-indigo-950 to-slate-950 rounded-3xl p-16">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-black text-white mb-3">简单透明的定价</h2>
+      <p class="text-slate-400 text-lg">按需计费，不用不花钱，超出 ¥0.05/条</p>
+    </div>
+    
+    <div class="grid grid-cols-4 gap-4">
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50">
+        <div class="text-slate-400 font-medium mb-2">免费</div>
+        <div class="text-4xl font-black text-white mb-1">¥0</div>
+        <div class="text-slate-500 text-sm mb-6">永久免费</div>
+        <div class="space-y-2 text-sm text-slate-400 mb-6">
+          <div>✓ 1 个 Bot</div>
+          <div>✓ 100 条消息/月</div>
+          <div>✓ 基础分析</div>
+        </div>
+        <div class="w-full py-2 border border-slate-600 rounded-xl text-slate-300 text-center text-sm">免费试用</div>
+      </div>
+      
+      <div class="bg-gradient-to-b from-indigo-600 to-purple-600 rounded-2xl p-6 shadow-2xl shadow-indigo-500/30 relative">
+        <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-yellow-400 text-black text-xs font-bold rounded-full">最受欢迎</div>
+        <div class="text-indigo-200 font-medium mb-2">入门</div>
+        <div class="text-4xl font-black text-white mb-1">¥99</div>
+        <div class="text-indigo-200 text-sm mb-6">/月 · 3,000 条</div>
+        <div class="space-y-2 text-sm text-white/80 mb-6">
+          <div>✓ 3 个 Bot</div>
+          <div>✓ 多渠道接入</div>
+          <div>✓ 邮件通知</div>
+        </div>
+        <div class="w-full py-2 bg-white text-indigo-600 rounded-xl font-bold text-center text-sm">立即购买</div>
+      </div>
+      
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50">
+        <div class="text-slate-400 font-medium mb-2">专业</div>
+        <div class="text-4xl font-black text-white mb-1">¥299</div>
+        <div class="text-slate-500 text-sm mb-6">/月 · 10,000 条</div>
+        <div class="space-y-2 text-sm text-slate-400 mb-6">
+          <div>✓ 10 个 Bot</div>
+          <div>✓ 知识库无限</div>
+          <div>✓ API 接入</div>
+        </div>
+        <div class="w-full py-2 bg-indigo-600 text-white rounded-xl font-bold text-center text-sm">立即购买</div>
+      </div>
+      
+      <div class="bg-slate-800/50 rounded-2xl p-6 border border-slate-700/50">
+        <div class="text-slate-400 font-medium mb-2">企业</div>
+        <div class="text-4xl font-black text-white mb-1">¥799</div>
+        <div class="text-slate-500 text-sm mb-6">/月 · 50,000 条</div>
+        <div class="space-y-2 text-sm text-slate-400 mb-6">
+          <div>✓ Bot 无限</div>
+          <div>✓ 私有化部署</div>
+          <div>✓ 专属客服</div>
+        </div>
+        <div class="w-full py-2 bg-white/10 text-white rounded-xl font-bold text-center text-sm border border-white/20">联系销售</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 图4: 对话 Demo 截图 -->
+  <div class="w-[900px] h-[600px] bg-slate-900 rounded-3xl overflow-hidden chat-glow">
+    <div class="px-6 py-4 bg-slate-800 flex items-center gap-3 border-b border-slate-700">
+      <div class="w-3 h-3 rounded-full bg-red-500"></div>
+      <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+      <div class="w-3 h-3 rounded-full bg-green-500"></div>
+      <div class="flex-1 text-center text-sm text-slate-400">smartbot-ai.com/demo</div>
+    </div>
+    <div class="p-8 h-[calc(100%-56px)] overflow-hidden">
+      <div class="max-w-lg mx-auto h-full flex flex-col">
+        <div class="bg-gray-900 rounded-2xl border border-slate-700 overflow-hidden flex-1 flex flex-col">
+          <div class="px-6 py-4 bg-slate-800 flex items-center gap-3">
+            <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold">S</span>
+            </div>
+            <div>
+              <div class="font-medium text-white">SmartBot 演示</div>
+              <div class="text-xs text-green-400">● 在线</div>
+            </div>
+          </div>
+          <div class="flex-1 p-6 space-y-4 bg-gray-50 overflow-y-auto">
+            <div class="flex justify-start">
+              <div class="bg-white px-5 py-3 rounded-2xl rounded-bl-sm shadow-sm text-slate-800 max-w-xs">
+                <p class="font-medium mb-1">🤖 SmartBot</p>
+                <p class="text-sm">您好！我是 SmartBot 智能客服。请问有什么可以帮助您的？</p>
+              </div>
+            </div>
+            <div class="flex justify-end">
+              <div class="bg-indigo-600 px-5 py-3 rounded-2xl rounded-br-sm text-white max-w-xs">
+                <p class="text-sm">你们的价格是多少？</p>
+              </div>
+            </div>
+            <div class="flex justify-start">
+              <div class="bg-white px-5 py-3 rounded-2xl rounded-bl-sm shadow-sm text-slate-800 max-w-xs">
+                <p class="font-medium mb-1">🤖 SmartBot</p>
+                <p class="text-sm">我们提供灵活的套餐方案：<br><br>• 免费版：100 条/月<br>• 入门版：¥99/月<br>• 专业版：¥299/月<br>• 企业版：¥799/月<br><br>请问您想了解哪个版本的详情呢？</p>
+              </div>
+            </div>
+            <div class="flex justify-end">
+              <div class="bg-indigo-600 px-5 py-3 rounded-2xl rounded-br-sm text-white max-w-xs">
+                <p class="text-sm">专业版有什么功能？</p>
+              </div>
+            </div>
+          </div>
+          <div class="px-6 py-4 bg-white border-t border-gray-200 flex gap-3">
+            <input type="text" value="输入消息..." class="flex-1 px-4 py-2 bg-gray-100 rounded-xl text-sm text-gray-500" readonly>
+            <button class="px-5 py-2 bg-indigo-600 text-white rounded-xl text-sm font-medium">发送</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 图5: AgentFlow -->
+  <div class="w-[1200px] h-[630px] bg-gradient-to-br from-blue-950 via-indigo-950 to-slate-950 rounded-3xl p-16 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-72 h-72 bg-indigo-500/20 rounded-full blur-3xl"></div>
+    
+    <div class="relative z-10 h-full flex flex-col justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg">
+          <span class="text-white font-black text-3xl">A</span>
+        </div>
+        <span class="text-3xl font-bold text-white">AgentFlow</span>
+        <span class="px-3 py-1 bg-blue-500/30 text-blue-300 text-sm rounded-full border border-blue-500/40">AI Agent 平台</span>
+      </div>
+      
+      <div class="text-center">
+        <h1 class="text-6xl font-black text-white mb-6 leading-tight">
+          让每个企业都能拥有<br>
+          <span class="gradient-text">专属 AI Agent</span>
+        </h1>
+        <p class="text-xl text-slate-400 mb-8">低代码/零代码构建 · 开箱即用的行业模板</p>
+        <div class="flex justify-center gap-4">
+          <div class="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold text-lg shadow-lg shadow-blue-500/30">免费开始 →</div>
+          <div class="px-8 py-4 bg-white/10 text-white rounded-2xl font-medium text-lg border border-white/20">查看 GitHub</div>
+        </div>
+      </div>
+      
+      <div class="flex justify-between items-center text-slate-500 text-sm">
+        <span>github.com/PHclaw/agentflow</span>
+        <div class="flex gap-8">
+          <div class="flex gap-4">
+            <div class="px-4 py-2 bg-slate-800/50 rounded-xl border border-slate-700/50 text-center">
+              <div class="text-xl font-bold text-white">🤖 拖拽构建</div>
+            </div>
+            <div class="px-4 py-2 bg-slate-800/50 rounded-xl border border-slate-700/50 text-center">
+              <div class="text-xl font-bold text-white">📦 行业模板</div>
+            </div>
+            <div class="px-4 py-2 bg-slate-800/50 rounded-xl border border-slate-700/50 text-center">
+              <div class="text-xl font-bold text-white">🧠 RAG 知识库</div>
+            </div>
+            <div class="px-4 py-2 bg-slate-800/50 rounded-xl border border-slate-700/50 text-center">
+              <div class="text-xl font-bold text-white">⚡ 工具调用</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 图6: 小红书封面 -->
+  <div class="w-[1242px] h-[1660px] bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 flex flex-col items-center justify-center p-16">
+    <div class="w-32 h-32 bg-white/20 rounded-3xl flex items-center justify-center mb-8 backdrop-blur">
+      <span class="text-white font-black text-6xl">S</span>
+    </div>
+    <h1 class="text-7xl font-black text-white text-center mb-6">SmartBot</h1>
+    <p class="text-3xl text-white/90 text-center mb-12">AI 客服 SaaS</p>
+    <div class="bg-white/15 backdrop-blur rounded-2xl p-8 border border-white/20 max-w-lg text-center">
+      <p class="text-white text-2xl font-medium mb-4">我做了一个 AI 客服</p>
+      <p class="text-white/80 text-lg">5 分钟配置上线 · 按消息计费</p>
+      <p class="text-white/80 text-lg">不用不花钱 · 比 Intercom 便宜 10 倍</p>
+    </div>
+    <div class="mt-16 flex gap-4 text-white/80 text-xl">
+      <span>🔗 github.com/PHclaw/smartbot</span>
+    </div>
+  </div>
+
+</body>
+</html>
